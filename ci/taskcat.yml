@@ -15,4 +15,12 @@ tests:
     parameter_input: workshop_input.json 
     template_file: master.template.yaml
     regions:
-      - us-west-2
+      - ap-southeast-2
+    parameters:
+      AvailabilityZones: "$[taskcat_getaz_2]"
+      EmailAddress: olawhk@gmail.com    
+      KeyPairName: qsworkshop
+      WebserverCIDR: "0.0.0.0/0"
+      QSS3KeyPrefix: "qs-workshop/"
+      QSS3BucketName: "$[taskcat_autobucket]"
+ 

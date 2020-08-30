@@ -1,0 +1,21 @@
+-----------------------------------------------------------------------------
+Region: ap-southeast-2
+StackName: tCaT-qs-workshop-default-23b54fc8a1674cfc85b647c22b2303b6
+*****************************************************************************
+ResourceStatusReason:  
+The following resource(s) failed to create: [VPCStack].
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                          ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ---------------------------------------------------------  ---------------------------------------------------------------------------------------------------------------------------------------------------
+2020-08-30 16:02:26.197000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-qs-workshop-default-23b54fc8a1674cfc85b647c22b2303b6  The following resource(s) failed to create: [VPCStack].
+2020-08-30 16:02:25.452000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  VPCStack                                                   S3 error: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+                                                                                                                                             For more information check http://docs.aws.amazon.com/AmazonS3/latest/API/ErrorResponses.html
+2020-08-30 16:02:24.954000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  VPCStack
+2020-08-30 16:02:20.948000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-qs-workshop-default-23b54fc8a1674cfc85b647c22b2303b6  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Sunday, 30. August 2020 04:03PM
+-----------------------------------------------------------------------------
+
